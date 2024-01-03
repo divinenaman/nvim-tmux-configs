@@ -37,6 +37,7 @@ return require('packer').startup({
     use "https://git.sr.ht/~whynothugo/lsp_lines.nvim"
     use 'quangnguyen30192/cmp-nvim-tags'
     use "rafamadriz/friendly-snippets"
+    use "ThePrimeagen/vim-be-good"
     --- use 'windwp/nvim-ts-autotag'
 
     -- use 'neoclide/coc.nvim', {'branch': 'release'}
@@ -79,7 +80,6 @@ return require('packer').startup({
 
    -- " use 'vim-airline/vim-airline'
     --" use 'vim-airline/vim-airline-themes'
-    --" use 'ryanoasis/vim-devicons'
     use 'norcalli/nvim-colorizer.lua'
     use 'Rigellute/shades-of-purple.vim'
     use 'kyoz/purify'
@@ -88,7 +88,7 @@ return require('packer').startup({
     use 'lifepillar/vim-gruvbox8'
     use 'crusoexia/vim-monokai'
     use 'ful1e5/onedark.nvim'
-    use 'kyazdani42/nvim-web-devicons'
+    -- use 'kyazdani42/nvim-web-devicons'
     use 'kyazdani42/nvim-tree.lua'
     use 'nvim-lualine/lualine.nvim'
     use 'arkav/lualine-lsp-progress'
@@ -105,6 +105,7 @@ return require('packer').startup({
     -- colorscheme
     use 'gruvbox-community/gruvbox'
 
+    use 'ryanoasis/vim-devicons'
   end,
   config = {
     max_jobs = 10
